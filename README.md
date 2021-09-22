@@ -1,6 +1,6 @@
-# Starter Workbook
+# Starter Lab
 
 ## Owner Keegan Arneson
 
-This repository is for tracking practice in Nait's COMP1017 Web Design Fundamentals. This repository contains demonstrations from the course and my practice. Material in this repository is NOT for marks.
+This repository is for tracking labs in Nait's COMP1017 Web Design Fundamentals. This private repository contains source code for the labs from the course and my practice. Material in this repository IS for marks.
 
