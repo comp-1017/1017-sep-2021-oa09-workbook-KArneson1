@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-        <!--this is the structure of a comment block in html files
+<!--this is the structure of a comment block in html files
         everything in this structure is not considered part of any
         content of your web page
 
@@ -13,60 +13,63 @@
 
         Normally you will specify the language of the code on the web
         page using the lang element parameter to specify your coding lang-->
-    <head>
-        <!--this is an element where you can code supports for the
+
+<head>
+    <!--this is an element where you can code supports for the
             browser to use in interpreting the web page.
             the items within this element are NOT considered content.-->
-            <title>Basic HTML tags - COMP 1017-OA09</title>
+    <title>Basic HTML tags - COMP 1017-OA09</title>
 
-            <!--universal type set which covers almost all of the characters
+    <!--universal type set which covers almost all of the characters
                 and symbols in the world. more info at
                     https://www.w3schools.com/tags/tag-meta.asp
             -->
-            <meta charset="utf-8">
-            
-            <!-- there are several other meta tags that can be placed in your
+    <meta charset="utf-8">
+
+    <!-- there are several other meta tags that can be placed in your
                  head area.
                  One of these allows you specify an author of the page
             -->
-            <meta name="author" content="Keegan Arneson">
-          
-    </head>
-    <body>
-        <!-- this area is used to place your browser page content-->
-        <!-- title heading tags
+    <meta name="author" content="Keegan Arneson">
+
+</head>
+
+<body>
+    <!-- this area is used to place your browser page content-->
+    <!-- title heading tags
                 h1-h6 title tags major-minor - h1 is the biggest scaling down to h6 as the smallest-->
-        <h1> Basic HTML Tags - this is a h1 tag</h1>
-        <h2> This is a h2 tag</h2>
-        <h3> Paragraph tag - This is a h3 tag</h3>
-        <!-- this is the coding block for your context in a paragraph tag
+    <h1> Basic HTML Tags - this is a h1 tag</h1>
+    <h2> This is a h2 tag</h2>
+    <h3> Paragraph tag - This is a h3 tag</h3>
+    <!-- this is the coding block for your context in a paragraph tag
              a paragraph tag belongs to the "block" group of tags
              "block" group of tags places your content on a new line-->
-            <p> The paragraph tag is a block tag. A block tag begins a new line in your displayed webpage on the browser. 
-                The browser does NOT display your content in the physical style of how you have entered your code in your HTML file.</p>
-            <p>This is my second paragraph on the displayed browser page. It will start a new line.</p>
-            <!--if you wish to use a component of a reserved tag (or the whole tag) you would be in trouble using the tag
+    <p> The paragraph tag is a block tag. A block tag begins a new line in your displayed webpage on the browser.
+        The browser does NOT display your content in the physical style of how you have entered your code in your HTML
+        file.</p>
+    <p>This is my second paragraph on the displayed browser page. It will start a new line.</p>
+    <!--if you wish to use a component of a reserved tag (or the whole tag) you would be in trouble using the tag
                 instead: you can use the special character strings to represent components of the tag such as the </less than (&lt;) and the >/greater than (&gt;)-->
-            <h3>List tags: &lt;ol&gt; and &lt;ul&gt;</h3>
-            <!-- block tag
+    <h3>List tags: &lt;ol&gt; and &lt;ul&gt;</h3>
+    <!-- block tag
                  create an ordered list (numbered) using <ol> tag
                  create an unordered list (bulleted) using <ul> tag
                  items in the list are indicated using the <li> tag
                      -->
-            <ol>
-            <li>Add extension Live Server for Go Live execution from VSC</li>
-            <li>Close and reopen VSC</li>
-            <li>Look at the bottom right corner on the blue status line for Go Live</li>
-            <li>This will run your page from VSC</li>
-            <li>Alter your page and save the file (ctrl+s), your browser will automatically be updated.</li>
-            </ol>
-            <ul>
-                <li>This is an unordered list</li>
-                <li>Default display is a bulleted list</li>
-                <li>We will see later how to remove these bullets</li>
-            </ul>
+    <ol>
+        <li>Add extension Live Server for Go Live execution from VSC</li>
+        <li>Close and reopen VSC</li>
+        <li>Look at the bottom right corner on the blue status line for Go Live</li>
+        <li>This will run your page from VSC</li>
+        <li>Alter your page and save the file (ctrl+s), your browser will automatically be updated.</li>
+    </ol>
+    <ul>
+        <li>This is an unordered list</li>
+        <li>Default display is a bulleted list</li>
+        <li>We will see later how to remove these bullets</li>
+    </ul>
 
-            <!-- this is an anchor tag and is incorrectly often referred to as the link tag
+    <!-- this is an anchor tag and is incorrectly often referred to as the link tag
                 One should NOT use the term link tag because there is actually a <link> tag used in the <head> section
                 this tag can take you to a different location whether it be:
                  A different website
@@ -77,21 +80,22 @@
                  target: indicates the browser
                          default is same display page
                          _blank will open a new browser tab-->
-            <a href="https://www.nait.ca" target="_blank">Go to Nait.ca</a>
-            <h3> Image tag</h3>
+    <a href="https://www.nait.ca" target="_blank">Go to Nait.ca</a>
+    <h3> Image tag</h3>
 
-            <!-- image tag does not have a closing tag
+    <!-- image tag does not have a closing tag
                 this type of tag is referred to as a self closing tag (void tag)
                 
                 parameters
                 src="relative web site location"
                 alt="printable text if the image is not found"
-                [square brackets = optional]-->
-            <img src="img/html5-logo.png" alt="html5 logo"
-                title="The HTML5/test image file">
-        <h4> This is a h4 tag</h4>
-        <t>This is a test</t>
-        <h5> This is a h5 tag</h5>
-        <h6> This is a h6 tag</h6>
-    </body>
+                [square brackets = optional
+                title="tool tip text for the image"]-->
+    <img src="img/html5-logo.png" alt="html5 logo" title="The HTML5/test image file">
+    <h4> This is a h4 tag</h4>
+    <t>This is a test</t>
+    <h5> This is a h5 tag</h5>
+    <h6> This is a h6 tag</h6>
+</body>
+
 </html>
