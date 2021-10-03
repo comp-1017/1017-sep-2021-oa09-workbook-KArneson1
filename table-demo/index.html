@@ -8,8 +8,6 @@
 </head>
 
 <body>
-
-</body>
 <h1>Table Demo</h1>
 <p>A table is a way of creating a structured grid display of data.
     The paired tags (open/close) we will be interested in are:
@@ -25,19 +23,54 @@
 </ul>
 <p> some tags have parameters. The border parameter of the table tag applies
     a border around your table. The colspan parameter and the rowspan parameter
-    are used on the &LT;td&gt; tab to allow you to merge columns on a single
+    are used on the &lt;td&gt; tab to allow you to merge columns on a single
     row or column cells across rows.
 </p>
 <table border="1">
     <thead>
-
+        <tr>
+        <th></th>
+        <th>Course#</th>
+        <th>Name</th>
+        <th>Hours</th>
+        <th>Pass Criteria</th>
+        </tr>
     </thead>
     <tbody>
+        <tr>
+            <td><img src="img/telephone.png" alt="telephone"></td>
+            <td><a href="#">COMP1017</a></td>
+            <td>Web Design Fundamentals 1</td>
+            <td align="center" valign="center">60</td>
+            <td>Overall 50%</td>
+        </tr>
+        <tr>
+            <td><img src="img/money.png" alt="money"></td>
+            <td>COMP1008</td>
+            <td>Digital Graphic Design Tools</td>
+            <td align="center" valign="top">60</td>
+            <td>Overall 50%</td>
+        </tr>
+        <tr>
+            <td><img src="img/computer.png" alt="computer"></td>
+            <td>CPSC1517</td>
+            <td>Introduction to Application Development</td>
+            <td align="center" valign="bottom">90</td>
+            <td>Overall &nbsp;&nbsp;&nbsp;50% and 
+                <b>minimum</b> 50% in <i>Theory</i> 
+                <strong>and</strong> <em>Project</em> <u>components</u></td>
+        </tr>
 
     </tbody>
     <tfoot>
-        
+        <tr>
+            <td></td>
+            <td colspan="2">Total Hours</td>
+            <td align="center">120</td>
+            <td></td>
+        </tr>
+
     </tfoot>
 </table>
-
+</body>
 </html>
