@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>CSS Intro</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Keegan Arneson">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Introduction</h1>
+        <nav>
+            <li><a href="#">Overview</a></li>
+            <li><a href="index-inline.html">Inline</a></li>
+            <li><a href="index-embedded.html">Embedded</a></li>
+            <li><a href="index-link.html">Linked StyleSheet</a></li>
+    </header>
+    <main>
+        <section>
+            <table border="1">
+                <tr>
+                    <td>Browser Defaults</td>
+                    <td width="400px">you have no control over</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Inline</td>
+                    <td>this is for a single specific element (tag) instance</td>
+                    <td>style="rule; ["rule; ...]"></div>"</td>
+                    <td>style="color:red; width:50px;"</td>
+                </tr>
+                <tr>
+                    <td>Embedded</td>
+                    <td>coded in your head area, styling selectors apply to all elements (tags) that exist on the page.
+                    </td>
+                    <td>&lt;style&gt; <br /> selector { rule; [rule; ...]} <br/> [selector {...} ...]&lt;/style&gt;</td>
+                    <td>&lt;style&gt; <br />h1 {color:red; width:250px;} <br/> p {background-color:silver;}<br />&lt;/style&gt;</td>
+                </tr>
+                <tr>
+                    <td>Link</td>
+                    <td>coded in a seperate file, styling selectors apply to all elements (tags) that exist on a page,
+                        you must reference the file in your head area using the &lt;Link&gt; tag</td>
+                    <td> selector{ rule; [rule; ...]} <br/> [selector {...} ...]</td>
+                    <td> <br />h1 {color:red; width:250px;} <br/> p {background-color:silver;}</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
