@@ -1,11 +1,10 @@
-/*element selectors
+/* element (tags) selectors */
 
 h1 {
     color: red;
-}
-
-p {
-    background-color: silver;
+    }
+p  {
+    /* background-color: silver; */
     font-family: Calibri;
 }
 
@@ -16,36 +15,40 @@ h2, h3, h4, h5, h6{
     border: 3px solid black;
 }
 
-/*decentant selectors
-element element element ...*/
+
+/* decendent selectors
+element element element */
 section aside p{
     background-color:azure;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-style: italic;
     font-size: large;
 }
 
-/*child combinations
-parent -child */
+/* child combinations
+parent - child */
 section p{
     font-size: xx-small;
+} 
 
-}
-
-/*class selector
+/* class selector 
 syntax for naming is .user-name{ rules}
 you are NOT using element names
 classes can be attached to any element
 classes are independent of the element
+on html page class="user-name [user-name ...]
 */
 .box-text{
-    border-top: 10px solid blue;
+    border-top: 10px solid blue ;
     background-color: chartreuse;
 }
-
 .color-yellow{
     color: yellow;
 }
-/*id selector
+/* id selector
+similar to a class selector but is only supposed to be used
+ __once__ on the page where the class maybe used multiple times 
+ syntax #user-name{rules}
+ on html page id="user-name"
 */
