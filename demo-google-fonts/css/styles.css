@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #333
+}
+
+/* Typography */
+
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 45px;
+    color: #9d9d9d;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h2, p{
+    color: #9d9d9d;
+}
+
+p{
+    font-size: 18px;
+}
+
+main{
+    margin-bottom: 26px;
+    margin-top: 90px;
+}
+
+.section-img{
+    width: 100px;
+}
+
+.footer-img{
+    margin-right: 20px;
+    width: 40px;
+    /* height: 40px; */
+}
+/* Page Layout */
